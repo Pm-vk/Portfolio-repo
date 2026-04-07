@@ -6,7 +6,6 @@ const projects = [
   {
     title: "Recipify SERVD",
     category: "AI Smart Kitchen Assistant",
-    description: "A complete reimagining of pantry management. This application harnesses computer vision AI to transform everyday ingredient imagery into step-by-step, nutrition-first recipes.",
     tools: "Next.js 15, Gemini Pro Vision, Arcjet, Clerk",
     image: "/images/recipify.png",
     link: "https://recipify-amber.vercel.app/",
@@ -14,7 +13,6 @@ const projects = [
   {
     title: "Finance Dashboard & RBAC API",
     category: "Production-ready RESTful API",
-    description: "A secure, production-ready ledger system that drives real-time financial analytics. It acts as a fortress for data, utilizing ACID guarantees and granular role-based access control.",
     tools: "Node.js, Express, MongoDB Aggregation, JWT, Zod",
     image: "/images/finance.png",
     link: "https://finance-dashboard-backend-oryq.onrender.com",
@@ -22,7 +20,6 @@ const projects = [
   {
     title: "AI Interview Prep",
     category: "Career Assessment Platform",
-    description: "An automated simulation environment that benchmarks career readiness. It orchestrates complex background tasks to deliver simulated interviews and dynamic market visualizations.",
     tools: "Next.js, Prisma, Gemini AI, Inngest, Recharts",
     image: "/images/interview.png",
     link: "https://ai-interview-prep-rose.vercel.app/",
@@ -30,7 +27,6 @@ const projects = [
   {
     title: "The Custom Cart App",
     category: "Personalization Engine",
-    description: "Bridging the gap between imagination and reality, this platform enables users to architect their own apparel with real-time 3D visual feedback, powered by a robust backend architecture.",
     tools: "Next.js 15, Strapi CMS, PostgreSQL, Imagekit",
     image: "/images/custom_cart.png",
     link: "https://custom-cart-app.vercel.app",
@@ -108,9 +104,6 @@ const Work = () => {
                         <h4>{project.title}</h4>
                         <p className="carousel-category">
                           {project.category}
-                        </p>
-                        <p className="carousel-description">
-                          {project.description}
                         </p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tech Stack</span>
