@@ -9,9 +9,12 @@
 
 .contact-section h3 {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 800;
   text-transform: uppercase;
   margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
 }
 
 .contact-flex {
@@ -20,9 +23,13 @@
 }
 
 .contact-flex h4 {
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
-  opacity: 0.6;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--accentColor);
 }
 
 .contact-box {
@@ -37,17 +44,26 @@
 
 a.contact-social {
   font-size: 25px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--glassBorder);
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+a.contact-social:hover {
+  color: var(--secondaryAccent);
+  border-bottom-color: var(--secondaryAccent);
+  padding-left: 10px;
 }
 
 .contact-box h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 23px;
   margin: 0;
+  color: #fff;
 }
 
 .contact-box h2>span {
-  color: var(--accentColor);
+  color: var(--secondaryAccent);
 }
 
 .contact-box h5 {

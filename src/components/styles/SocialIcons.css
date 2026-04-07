@@ -22,8 +22,8 @@
   color: var(--backgroundColor);
 }
 .social-icons a:hover {
-  color: var(--backgroundColor);
-  /* transform: scale(1.2); */
+  color: var(--secondaryAccent);
+  text-shadow: 0 0 15px var(--secondaryAccent);
 }
 .social-icons span {
   width: 50px;
@@ -47,23 +47,32 @@
   position: absolute;
   z-index: 99;
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 12px;
   bottom: 40px;
   right: 0;
   width: auto;
   text-wrap: nowrap;
-  letter-spacing: 4px;
-  font-size: 15px;
-  line-height: 15px;
-  font-weight: 600;
-  color: #5e5e5e;
-  cursor: pointer;
-  transition: 0.5s;
-  transform-origin: left bottom;
-  transform: translateX(100%) rotateZ(-90deg);
-}
-.resume-button:hover {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: var(--glassBg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 12px 24px;
+  border: 1px solid var(--glassBorder);
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.resume-button:hover {
+  background: rgba(112, 0, 255, 0.2);
+  border-color: var(--accentColor);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(112, 0, 255, 0.3);
 }
 div.resume-button span {
   color: #fff;
@@ -92,12 +101,10 @@ div.resume-button span {
 }
 @media only screen and (min-width: 768px) {
   .resume-button {
-    transform: none;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 20px;
   }
   div.resume-button span {
-    font-size: 23px;
-    margin-top: -1.5px;
+    font-size: 20px;
   }
 }

@@ -11,27 +11,30 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:prashantmishra9873@gmail.com"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                prashantmishra9873@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
+                href="tel:8700721041"
+                data-cursor="disable"
+              >
+                +91 8700721041
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
-            </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              B.Tech Computer Science, <br />
+              BPIT, New Delhi — 2023–2027
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/Pm-vk"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +43,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/prashant-mishra-b666bb332/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,27 +52,18 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
+              href="https://leetcode.com/u/Prashant_2004"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              LeetCode <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Prashant Mishra</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

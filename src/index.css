@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
 
 :root {
-  font-family: "Geist", sans-serif;
+  font-family: "Outfit", sans-serif;
 
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
   scroll-behavior: smooth;
-  color-scheme: light dark;
-  color: #eae5ec;
+  color-scheme: dark;
+  color: #f8f9fa;
   background-color: var(--backgroundColor);
 
   font-synthesis: none;
@@ -18,8 +18,12 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #5eead4;
-  --backgroundColor: #0a0e17;
+
+  --accentColor: #7000ff;
+  --secondaryAccent: #00d1ff;
+  --backgroundColor: #030014;
+  --glassBg: rgba(255, 255, 255, 0.03);
+  --glassBorder: rgba(255, 255, 255, 0.1);
   --vh: 100vh;
   --vh: 100svh;
 }
@@ -30,7 +34,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Geist", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.02em;
 }
 
 body {
@@ -66,7 +71,10 @@ main {
 body {
   margin: 0;
   height: auto;
-  background-color: #050810;
+  background-color: var(--backgroundColor);
+  background: radial-gradient(circle at 50% -10%, rgba(112, 0, 255, 0.15) 0%, transparent 60%),
+              radial-gradient(circle at 0% 100%, rgba(0, 209, 255, 0.05) 0%, transparent 50%),
+              var(--backgroundColor);
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;

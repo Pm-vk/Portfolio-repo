@@ -21,9 +21,9 @@
   position: fixed;
   width: 300px;
   height: 300px;
-  background-color: #22d3ee;
-  box-shadow: inset -50px 40px 50px rgba(0, 180, 180, 0.6);
-  filter: blur(60px);
+  background-color: var(--accentColor);
+  box-shadow: inset -50px 40px 50px rgba(112, 0, 255, 0.4);
+  filter: blur(80px);
   border-radius: 50%;
   animation: loadingCircle 5s linear infinite;
 }
@@ -61,9 +61,9 @@
   display: none;
   width: 300px;
   height: 300px;
-  background-color: #22d3ee;
-  box-shadow: inset -50px 40px 50px rgba(0, 180, 180, 0.6);
-  filter: blur(50px);
+  background-color: var(--secondaryAccent);
+  box-shadow: inset -50px 40px 50px rgba(0, 209, 255, 0.3);
+  filter: blur(70px);
   border-radius: 50%;
   animation: loadingCircle2 5s linear infinite;
 }
@@ -94,10 +94,10 @@
   width: 400px;
   height: 400px;
   z-index: 1;
-  background-color: #22d3ee;
+  background-color: var(--accentColor);
   transform: translate(-50%, 36%) scaleX(1.4);
-  box-shadow: inset 66px 35px 85px 0px rgba(0, 180, 180, 0.65);
-  filter: blur(50px);
+  box-shadow: inset 66px 35px 85px 0px rgba(112, 0, 255, 0.5);
+  filter: blur(60px);
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -185,11 +185,12 @@
 
 .landing-intro h1 {
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: -2px;
   font-size: 28px;
   line-height: 28px;
-  font-weight: 500;
-  font-family: "Geist", sans-serif;
+  font-weight: 800;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
 }
 
 /* .landing-intro h1 span {
@@ -217,8 +218,8 @@
   margin: 0;
   margin-top: -20px;
   margin-left: 20px;
-  font-family: "Geist", sans-serif;
-  font-weight: 600;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   position: relative;
@@ -234,12 +235,12 @@
 }
 
 h2.landing-info-h2 {
-  color: #14b8a6;
+  color: var(--secondaryAccent);
   font-size: 42px;
   width: 120%;
   margin: 0;
-  font-family: "Geist", sans-serif;
-  font-weight: 600;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
   position: relative;
   margin-left: -5px;
 }

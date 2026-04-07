@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Professional <span>&</span>
+          <br /> Academic
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,58 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Software Engineering Intern</h4>
+                <h5>AKQA</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              During my tenure, I focused on system optimization and backend 
+              architecture. I successfully deployed high-performance Strapi CMS 
+              solutions that significantly accelerated data delivery by 25% and 
+              improved overall application responsiveness.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>B.Tech in Computer Science</h4>
+                <h5>BPIT, New Delhi</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2027</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Building a robust theoretical foundation in CS, maintaining an 
+              8.27 CGPA. I consistently bridge academic theory with practical 
+              engineering, specializing in scalable web development and AI infrastructure.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Hackathon Winner</h4>
+                <h5>GTBIT & MAIT</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>Awards</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Demonstrated competitive excellence by securing 3rd place at the GTBIT 
+              Hackathon (outpacing 80+ agile teams) and ranking in the Top 17 at 
+              HackMait among 700+ developers.
             </p>
           </div>
         </div>
